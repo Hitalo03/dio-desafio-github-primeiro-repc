@@ -1,0 +1,42 @@
+Atalhos CTRL L > limpa todo o terminal
+
+ls > mostrar os arquivos da pasta. Ex: ls
+
+cd .. > volta um nivel de pasta: Ex: cd ..
+
+cd > abrir uma pasta. Ex: cd workspace/
+
+mkdir > cria uma pasta. Ex: mkdir livro-receitas
+
+git init > inicializa o git. cria um repositorio Ex: git init
+
+ls -a > mostrar arquivos ocultos
+
+git config --global user.email "hitaloalves03@gmail.com" > sempre que criar um commit é necessario a tribuir a identificação do autor
+
+git config --global user.name "Hitalo03" > criando um nome para a commit
+
+git add * > criando uma comiit, adiciona no stage para commitar
+
+git commit -m "commit inicial" > gerando commit, leva os arquivos para serem atualizados no github
+
+git status > exibi os status do arquivos
+
+mv nomedoarquivo ./nomedapastas/ > move um arquivo para outra pasta
+
+git add nomedoarquivo nomedapasta/ > para atulizar uma commit
+
+echo > nomedoarquivo.md > cria um arquivo
+
+git config --list > mostar sua configuração do git
+
+git remote add origin https://github.com/Hitalo03/Teste.git > adiciona ao repositorio do github
+
+git push origin master > envia os arquivos para o repositorio
+
+git pull origin master > puxa o que esta no github e junta com a versão que esta no seu pc
+
+git clone linkdoarquivo > clona um repositorio que esta no github
+
+git remote -v > mostra para onde o repositorio esta apontado
+
