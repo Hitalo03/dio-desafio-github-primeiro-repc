@@ -12,11 +12,11 @@ git init > inicializa o git. cria um repositorio Ex: git init
 
 ls -a > mostrar arquivos ocultos
 
-git config --global user.email "hitaloalves03@gmail.com" > sempre que criar um commit é necessario a tribuir a identificação do autor
+git config --global user.email "hitaloalves03@gmail.com" > sempre que criar um commit é necessario atribuir a identificação do autor
 
 git config --global user.name "Hitalo03" > criando um nome para a commit
 
-git add * > criando uma comiit, adiciona no stage para commitar
+git add * > criando uma commit, adiciona no stage para commitar
 
 git commit -m "commit inicial" > gerando commit, leva os arquivos para serem atualizados no github
 
